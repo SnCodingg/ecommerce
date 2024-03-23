@@ -32,5 +32,8 @@
         float: left;
         width: 25%;
     }
+    img.detail-img{
+       width: 100%;
+    }
 </style>
 </html>
