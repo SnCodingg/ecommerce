@@ -19,5 +19,18 @@
         height: 500px;
         padding-top: 100px;
     }
+    img.slider-img {
+        height: 400px;
+    }
+    .trending-wrapper{
+        margin: 20px 0 50px 0;
+    }
+    img.trending-img{
+        height: 100px;
+    }
+    .trending-item{
+        float: left;
+        width: 25%;
+    }
 </style>
 </html>
