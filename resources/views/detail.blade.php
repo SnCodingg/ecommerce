@@ -11,8 +11,15 @@
         <p>Description : {{$details['description']}}</p>
         <p>Category : {{$details['category']}}</p>
         <p>Price : {{$details['price']}}</p>
+        <br><br>
+        <form action="/add_to_cart" method="post">
+          @csrf
+          <input type="hidden" name="product_id" value="{{$details['id']}}">
+          <button class="btn btn-primary">Add to Cart</button>
+        </form>
+        <br><br>
         <button class="btn btn-success">Buy Now</button>
-        <button class="btn btn-primary">Add to Cart</button>
+        
       </div>
 </div>
 </div>
